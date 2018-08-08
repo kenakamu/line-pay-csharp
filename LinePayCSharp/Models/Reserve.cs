@@ -36,7 +36,7 @@ namespace Line.Pay.Models
         /// LINE member ID: LINE user mid for making a payment
         /// </summary>
         [JsonProperty("mid")]
-        public int Mid { get; set; }
+        public string Mid { get; set; }
         [JsonProperty("oneTimeKey")]
 
         ///Result of scanning and reading QR/Bar code information given by LINE Pay app is used as a LINE Pay user’s
